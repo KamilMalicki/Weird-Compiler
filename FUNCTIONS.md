@@ -46,37 +46,37 @@ var1 = in();
 ### `inc(int *value)`
 - Increments the value pointed to by the given pointer.
 ``` example
-inc(*var1);
+inc(&var1);
 ```
 
 ### `dec(int *value)`
 - Decrements the value pointed to by the given pointer.
 ``` example
-dec(*var1);
+dec(&var1);
 ```
 
 ### `neg(int *value)`
 - Negates the value pointed to by the given pointer.
 ``` example
-neg(*var1, 5);
+neg(&var1, 5);
 ```
 
 ### `and(int *value, int mask)`
 - Performs a bitwise AND operation between the value pointed to by the given pointer and a mask.
 ``` example
-and(*var1, 5);
+and(&var1, 5);
 ```
 
 ### `or(int *value, int mask)`
 - Performs a bitwise OR operation between the value pointed to by the given pointer and a mask.
 ``` example
-or(*var1, 5);
+or(&var1, 5);
 ```
 
 ### `mov(int *variable, int value)`
 - Moves the given value into the memory location pointed to by the given pointer.
 ``` example
-mov(*var1, 5);
+mov(&var1, 5);
 ```
 
 ### `push(int value)`
@@ -116,7 +116,7 @@ halt();
 ``` example
 sti();
 AH = 0x00;
-interrupt(0x16);
+interrupt(0x16); // interrupt_flag change to false after going through the functions
 ```
 
 ### `cli()`
