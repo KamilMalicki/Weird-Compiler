@@ -2,6 +2,10 @@
 
 Weird Language is a custom programming language created by Kamil Malicki in 2023/2024. It is designed for low-level system programming and educational purposes, offering direct interaction with hardware components.
 
+## Installation (Windows):
+
+To compile and execute Weird Language programs on Windows, download the compiler from the following link: [Weird Language Compiler](https://drive.google.com/file/d/1Yt9O33U0uUXcv2mGu9yhgsScRsKNNga0/view?usp=drive_link).
+
 ## How to Write Code:
 
 To write code in Weird Language, follow these steps:
