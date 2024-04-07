@@ -89,7 +89,7 @@ push('H');
 ### `pop()`
 - Pops a value from the stack.
 ``` example
-pop();
+var1 = pop();
 ```
 
 ### `nop()`
