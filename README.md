@@ -5,6 +5,7 @@ Weird Language is a custom programming language created by Kamil Malicki in 2023
 ## Installation (Windows):
 
 To compile and execute Weird Language programs on Windows, download the compiler from the following link: [Weird Language Compiler](https://drive.google.com/file/d/1Yt9O33U0uUXcv2mGu9yhgsScRsKNNga0/view?usp=drive_link).
+then you should copy the Weird directory to C:\ to avoid errors. All this from the installation can now be used from the wdc.exe compiler in the Weird\bin\ directory.
 
 ## How to Write Code:
 
@@ -14,6 +15,7 @@ To write code in Weird Language, follow these steps:
 2. **Define Constants and Variables:** Declare any necessary constants and variables, including stack size (`STACK_SIZE`) and registers.
 3. **Write Instructions:** Compose your program using Weird Language's instructions, including input/output, arithmetic/logical operations, control flow, and interrupt handling.
 4. **Compile and Execute:** After writing your code, compile it using the Weird Language compiler located at `Weird\bin\wdc.exe` and execute the generated binary.
+   *SYNTAX: wdc.exe file_input_for_compilation file_output* outputs file this is for example .exe .obj .o .bin .hex e.t.c
 
 ## Features:
 
