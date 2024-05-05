@@ -1,4 +1,4 @@
-# Weird Compiler
+# Weird Language Compiler
 
 Weird Language is a custom programming language created by Kamil Malicki in 2023/2024. It is designed for low-level system programming and educational purposes, offering direct interaction with hardware components.
 
